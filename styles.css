@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+h1, h2 {
+  color: gold;
+}
+
+a {
+  color: gold;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+}
+
+button, .button {
+  background-color: gold;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover, .button:hover {
+  background-color: black;
+  color: gold;
+  border: 1px solid gold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('background.jpg') no-repeat center center/cover;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+.hero .tagline {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* Gallery Section */
+.gallery {
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 300px;
+  margin: 10px;
+  border: 3px solid gold;
+  border-radius: 10px;
+}
+
+/* Booking Section */
+.booking {
+  text-align: center;
+  padding: 20px;
+}
+
+.booking .button {
+  display: inline-block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: gold;
+  font-size: 14px;
+}
+
+/* Age Verification */
+#age-verification {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+#age-verification button {
+  margin-top: 20px;
+}
